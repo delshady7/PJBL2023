@@ -33,6 +33,8 @@ class data_guru extends BaseController
             'alamat' => $this->request->getVar('alamat'),
             'telepon' => $this->request->getVar('telepon'),
         ];
+        // $data = $this->request->getRawinput();
+        // var_dump($data);
         $this->model->save($data);
         $response = [
             'status' => 201,
@@ -56,14 +58,23 @@ class data_guru extends BaseController
       public function update($id = null)
     {
         // $model = new data_guruModel();
+        // $data = [
+        //     'nama' => $this->request->getVar('nama'),
+        //     'jenis_kelamin' => $this->request->getVar('jenis_kelamin'),
+        //     'jabatan' => $this->request->getVar('jabatan'),
+        //     'alamat' => $this->request->getVar('alamat'),
+        //     'telepon' => $this->request->getVar('telepon'),
+        // ];
         $data = [
-            'nama' => $this->request->getVar('nama'),
-            'jenis_kelamin' => $this->request->getVar('jenis_kelamin'),
-            'jabatan' => $this->request->getVar('jabatan'),
-            'alamat' => $this->request->getVar('alamat'),
-            'telepon' => $this->request->getVar('telepon'),
+            'nama' => $this->request->getRawInput()['nama'],
+            'jenis_kelamin' => $this->request->getRawInput()['jenis_kelamin'],
+            'jabatan' => $this->request->getRawInput()['jabatan'],
+            'alamat' => $this->request->getRawInput()['alamat'],
+            'telepon' => $this->request->getRawInput()['telepon'],
         ];
+        // $data = $this->request->getRawinput();
         $data['id'] = $id;
+        var_dump($data);
 
         $isExists = $this->model->where('id', $id)->findAll();
         if (!$isExists) {
@@ -102,31 +113,31 @@ class data_guru extends BaseController
         }
     }
 
-      public function login()
-    {
-        $model = new data_guruModel();
-        $identifier = $this->request->getVar('username');
-        // $username = $this->request->getVar('username');
-        $password = $this->request->getVar('password');
+    //   public function login()
+    // {
+    //     $model = new data_guruModel();
+    //     $identifier = $this->request->getVar('username');
+    //     // $username = $this->request->getVar('username');
+    //     $password = $this->request->getVar('password');
 
-        // $this->model->where('username', $username)->first();
-        $user = $model->where('id', $identifier)->orWhere('username', $identifier)->first();
+    //     // $this->model->where('username', $username)->first();
+    //     $user = $model->where('id', $identifier)->orWhere('username', $identifier)->first();
 
-        if (!$user) {
-            return $this->failNotFound('User not found');
-        }
+    //     if (!$user) {
+    //         return $this->failNotFound('User not found');
+    //     }
 
-        if (!password_verify($password, $user['password'])) {
-            return $this->failUnauthorized('Incorrect password');
-        }
+    //     if (!password_verify($password, $user['password'])) {
+    //         return $this->failUnauthorized('Incorrect password');
+    //     }
 
-        $userData = [
-            'id' => $user['id'],
-            'username' => $user['username'],
-        ];
+    //     $userData = [
+    //         'id' => $user['id'],
+    //         'username' => $user['username'],
+    //     ];
 
-        return $this->respond($userData);
-    }
+    //     return $this->respond($userData);
+    // }
 
 
 }
