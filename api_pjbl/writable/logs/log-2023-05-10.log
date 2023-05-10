@@ -1,0 +1,335 @@
+ERROR - 2023-05-10 01:05:42 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `data_gu...', 0)
+#1 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_gu...')
+#2 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_gu...')
+#3 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `data_gu...', Array, false)
+#4 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(690): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp2\htdocs\PJBL2023\api_pjbl\app\Controllers\data_guru.php(83): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+#10 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+#11 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp2\htdocs\PJBL2023\api_pjbl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-10 01:05:42 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `data_guru` SET `nama` = \'admin2\', `jenis_kelamin` = \'Perempuan\', `jabatan` = \'guru\', `alamat` = (\'admin2\',\'Perempuan\',\'guru\',\'Bekasi\',\'432121\'), `telepon` = \'432121\', `id` = \'2\'
+WHERE `data_guru`.`id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_guru` SET `nama` = \'admin2\', `jenis_kelamin` = \'Perempuan\', `jabatan` = \'guru\', `alamat` = (\'admin2\',\'Perempuan\',\'guru\',\'Bekasi\',\'432121\'), `telepon` = \'432121\', `id` = \'2\'
+WHERE `data_guru`.`id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_guru` SET `nama` = \'admin2\', `jenis_kelamin` = \'Perempuan\', `jabatan` = \'guru\', `alamat` = (\'admin2\',\'Perempuan\',\'guru\',\'Bekasi\',\'432121\'), `telepon` = \'432121\', `id` = \'2\'
+WHERE `data_guru`.`id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `data_guru` SET `nama` = :nama:, `jenis_kelamin` = :jenis_kelamin:, `jabatan` = :jabatan:, `alamat` = :alamat:, `telepon` = :telepon:, `id` = :id:
+WHERE `data_guru`.`id` IN :data_guru.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('2', [...])
+ 9 APPPATH\Controllers\data_guru.php(83): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 01:06:32 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `data_gu...', 0)
+#1 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_gu...')
+#2 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_gu...')
+#3 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `data_gu...', Array, false)
+#4 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(690): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp2\htdocs\PJBL2023\api_pjbl\app\Controllers\data_guru.php(83): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+#10 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+#11 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp2\htdocs\PJBL2023\api_pjbl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-10 01:06:32 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `data_guru` SET `nama` = \'admin2\', `jenis_kelamin` = \'Perempuan\', `jabatan` = \'guru\', `alamat` = (\'admin2\',\'Perempuan\',\'guru\',\'Bekasi\',\'432121\'), `telepon` = \'432121\', `id` = \'2\'
+WHERE `data_guru`.`id` IN (\'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `data_guru` SET `nama` = \'admin2\', `jenis_kelamin` = \'Perempuan\', `jabatan` = \'guru\', `alamat` = (\'admin2\',\'Perempuan\',\'guru\',\'Bekasi\',\'432121\'), `telepon` = \'432121\', `id` = \'2\'
+WHERE `data_guru`.`id` IN (\'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `data_guru` SET `nama` = \'admin2\', `jenis_kelamin` = \'Perempuan\', `jabatan` = \'guru\', `alamat` = (\'admin2\',\'Perempuan\',\'guru\',\'Bekasi\',\'432121\'), `telepon` = \'432121\', `id` = \'2\'
+WHERE `data_guru`.`id` IN (\'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `data_guru` SET `nama` = :nama:, `jenis_kelamin` = :jenis_kelamin:, `jabatan` = :jabatan:, `alamat` = :alamat:, `telepon` = :telepon:, `id` = :id:
+WHERE `data_guru`.`id` IN :data_guru.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('2', [...])
+ 9 APPPATH\Controllers\data_guru.php(83): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:07:20 --> Undefined array key "nama"
+in APPPATH\Controllers\data_guru.php on line 69.
+ 1 APPPATH\Controllers\data_guru.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\data_guru.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:08:05 --> Undefined array key "nama"
+in APPPATH\Controllers\data_guru.php on line 69.
+ 1 APPPATH\Controllers\data_guru.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\data_guru.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:09:38 --> Undefined array key "nama"
+in APPPATH\Controllers\data_guru.php on line 69.
+ 1 APPPATH\Controllers\data_guru.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\data_guru.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\data_guru->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\data_guru))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:29:38 --> Class "App\Models\loginModel" not found
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:43:41 --> Class "App\Models\loginModel" not found
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:45:50 --> Undefined variable $id
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 APPPATH\Controllers\Auth.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:50:14 --> Undefined variable $id
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 APPPATH\Controllers\Auth.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 01:51:54 --> Undefined variable $id
+in APPPATH\Controllers\Auth.php on line 20.
+ 1 APPPATH\Controllers\Auth.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 01:53:41 --> mysqli_sql_exception: Unknown column 'login.deleted_at' in 'where clause' in C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp2\htdocs\PJBL2023\api_pjbl\app\Controllers\Auth.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(934): App\Controllers\Auth->login()
+#8 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\PJBL2023\api_pjbl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-10 01:53:41 --> Unknown column 'login.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Auth.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 01:54:31 --> mysqli_sql_exception: Unknown column 'login.deleted_at' in 'where clause' in C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp2\htdocs\PJBL2023\api_pjbl\app\Controllers\Auth.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(934): App\Controllers\Auth->login()
+#8 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\PJBL2023\api_pjbl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-10 01:54:31 --> Unknown column 'login.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Auth.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 01:56:43 --> mysqli_sql_exception: Unknown column 'login.deleted_at' in 'where clause' in C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp2\htdocs\PJBL2023\api_pjbl\app\Controllers\Auth.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(934): App\Controllers\Auth->login()
+#8 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp2\htdocs\PJBL2023\api_pjbl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp2\htdocs\PJBL2023\api_pjbl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-10 01:56:43 --> Unknown column 'login.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE `username` = \'admin\'
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `username` = :username:
+AND `login`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Auth.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:33:23 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:34:35 --> Undefined property: App\Controllers\Auth::$UserModel
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$UserModel', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:37:06 --> Undefined property: App\Controllers\Auth::$UserModel
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$UserModel', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:40:09 --> Undefined property: App\Controllers\Auth::$UserModel
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 APPPATH\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$UserModel', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:40:34 --> Object of class App\Models\UserModel could not be converted to string
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:43:52 --> Undefined property: App\Controllers\Auth::$load
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 APPPATH\Controllers\Auth.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$load', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Controllers\\Auth.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:45:16 --> Cannot call constructor
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:46:37 --> Class "App\Controllers\data_guruModel" not found
+in APPPATH\Controllers\Auth.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:47:03 --> Undefined variable $password
+in APPPATH\Models\UserModel.php on line 11.
+ 1 APPPATH\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Models\\UserModel.php', 11)
+ 2 APPPATH\Controllers\Auth.php(21): App\Models\UserModel->proses_login('admin', 'admin123')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:48:22 --> Undefined variable $password
+in APPPATH\Models\UserModel.php on line 11.
+ 1 APPPATH\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Models\\UserModel.php', 11)
+ 2 APPPATH\Controllers\Auth.php(21): App\Models\UserModel->proses_login('admin', 'admin123')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:54:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Controllers\Auth.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 02:55:30 --> Undefined variable $password
+in APPPATH\Models\UserModel.php on line 11.
+ 1 APPPATH\Models\UserModel.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp2\\htdocs\\PJBL2023\\api_pjbl\\app\\Models\\UserModel.php', 11)
+ 2 APPPATH\Controllers\Auth.php(21): App\Models\UserModel->proses_login('admin', 'admin123')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

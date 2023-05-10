@@ -31,7 +31,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->resource("data_guru");
-$routes->post('login', 'data_guru::login');
+$routes->post('login', 'Auth::login');
 
 /*
  * --------------------------------------------------------------------
