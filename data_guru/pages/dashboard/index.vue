@@ -89,9 +89,16 @@
             </v-toolbar>
           </div>
           <div class="tabel">
-            <v-simple-table fixed-header height="500px" data-app>
+            <v-simple-table 
+              fixed-header 
+              height="500px" 
+              data-app
+
+              >
               <template v-slot:top>
-                <v-dialog v-model="dialog">
+                <v-dialog 
+                v-model="dialog"
+                ref="dialog">
                   <template v-slot:activator="{ on, attrs }">                    
                   </template>
                   <v-card>
@@ -105,23 +112,31 @@
                           <v-col cols="12" sm="6" md="4">
                             <v-text-field
                               label="Nama"
+                              v-model="nama"
                             ></v-text-field>
                           </v-col>
                           <v-col cols="12" sm="6" md="4">
                             <v-text-field
+                              v-model="jenis_kelamin"
                               label="Jenis Kelamin"
                             ></v-text-field>
                           </v-col>
                           <v-col cols="12" sm="6" md="4">
                             <v-text-field
+                              v-model="jabatan"
                               label="Jabatan"
                             ></v-text-field>
                           </v-col>
                           <v-col>
-                            <v-textarea clearable label="Alamat"></v-textarea>
+                            <v-textarea 
+                            clearable 
+                            label="Alamat"
+                            v-model="alamat"
+                            ></v-textarea>
                           </v-col>
                           <v-col cols="12" sm="6" md="4">
                             <v-text-field
+                            v-model="telepon"
                               label="No. Telepon"
                             ></v-text-field>
                           </v-col>
@@ -131,34 +146,33 @@
       
                     <v-card-actions>
                       <v-spacer></v-spacer>
-                      <v-btn color="blue darken-1" text @click="close">
+                      <v-btn color="blue darken-1" text @click.prevent="closeAdd">
                         Cancel
                       </v-btn>
-                      <v-btn color="blue darken-1" text @click="save"> Save </v-btn>
+                      <v-btn color="blue darken-1" text @click.prevent="save"> Save </v-btn>
                     </v-card-actions>
                   </v-card>
                 </v-dialog>
               </template>
               <thead>
                 <tr>
-                  <th class="text-left">Id</th>
-                  <th class="text-left">Nama</th>
-                  <th class="text-left">Jenis Kelamin</th>
-                  <th class="text-left">Jabatan</th>
-                  <th class="text-left">Alamat</th>
-                  <th class="text-left">No. Telepon</th>
-                  <th class="text-left">Action</th>
+                  <!-- <th class="text-left">Id</th> -->
+                  <th class="text-center">Nama</th>
+                  <th class="text-center">Jenis Kelamin</th>
+                  <th class="text-center">Jabatan</th>
+                  <th class="text-center">Alamat</th>
+                  <th class="text-center">No. Telepon</th>
+                  <th class="text-center">Action</th>
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="item in get" :key="item.id">
-                  <td style="width: 100px">id</td>
-                  <td style="width: 100px">nama</td>
-                  <td style="width: 100px">jenis kelamin</td>
-                  <td style="width: 100px">jabatan</td>
-                  <td style="width: 100px">alamat</td>
-                  <td style="width: 100px">notelp</td>
-                  <td style="width: 100px">
+                <tr v-for="(item, index) in data_guru" :key="item.id">
+                  <td class="text-center">{{ item.nama }}</td>
+                  <td class="text-center">{{ item.jenis_kelamin }}</td>
+                  <td class="text-center">{{ item.jabatan }}</td>
+                  <td class="text-center">{{ item.alamat }}</td>                
+                  <td class="text-center">{{ item.telepon }}</td>
+                  <td class="text-center">
                     <tr>
                       <v-row>
                         <v-col>
@@ -173,7 +187,7 @@
                         </v-col>
                         <v-col>
                           <v-btn
-                            @click.prevent="remove(item)"
+                            @click.prevent="remove(item.id, index)"
                             color="danger"
                             fab
                             small
@@ -193,7 +207,36 @@
 </template>
 <script>
 export default{
+  created() {
+    console.log("ok")
+    const endpoint = "http://localhost/PJBL2023/api_pjbl/public/data_guru"
+    // const endpoint = "http://localhost:8080/Data/barang"
+
+    fetch(endpoint,
+      {
+        // mode: 'no-cors',
+        // method: 'GET',
+        headers: {
+          // 'Content-Type': 'application/json',
+          // 'Access-Control-Allow-Origin' : 'http://localhost:3000/',
+          // "Access-Control-Allow-Credentials" : true ,
+          // 'Access-Control-Allow-Headers' : '*',
+          // 'Access-Control-Allow-Methods' : 'index,create,update,delete',
+          // 'Content-Type': 'application/x-www-form-urlencoded',
+          
+        },
+      })
+      .then(result => result.json())
+      // .then(result => console.log(result))
+
+    .then(result => {
+      this.data_guru=result.data
+      console.log(result.data)
+    })
+  },
+
     data: () => ({
+     data_guru : [],
      cari: null,
      dialog: false,
      editIndex: -1,
@@ -214,14 +257,48 @@ export default{
     }),
 
     methods: {
-      close(){
+      closeAdd(){
         this.dialog = false;
-        this.dialog = null;
         this.$nextTick(() => {
           this.editGuru = Object.assign({}, this.defaultGuru);
           this.editIndex = -1;
         })
       },
-    },
-}
+      save(){
+        var data_guru = {
+          nama : this.nama,
+          jenis_kelamin : this.jenis_kelamin,
+          jabatan : this.jabatan,
+          alamat : this.alamat,
+          telepon : this.telepon
+        }
+        this.$axios.post("http://localhost/PJBL2023/api_pjbl/public/data_guru", data_guru)
+        // .then(() => this.$router.push(-1))
+        // e.preventDefault();
+        // this.$router.push({path: '/', query:{key: value}})
+        .then(() => this.$router.push("/dashboard")) ;
+      //   .then(() => {
+      //      this.$router.push({
+      //            name: '/'
+      //      });
+      //  }).catch(error => {
+      //      console.log(error.response);
+      //  });
+      },
+      
+      },
+      methods: {
+        remove(id, index)
+        {
+          this.$axios.delete(`http://localhost/PJBL2023/api_pjbl/public/data_guru/${id}`)
+            .then(response => {
+                this.aset.splice(index, 1);
+                console.log(response);
+              }).catch(error => {
+                console.log(error.response);
+          });
+        }
+        }
+    }
+
 </script>
