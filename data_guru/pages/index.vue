@@ -56,10 +56,7 @@
                         Masuk
                       </div>
                     </v-btn>
-                    <br>
-                    Belum Punya Akun? <nuxt-link to="/registrasi">
-                      Buat Akun
-                    </nuxt-link> 
+                 
                       
                   </v-form>
                 </v-card>
@@ -76,19 +73,31 @@
     data: () => ({
       name: 'IndexPage',
       form: false,
-      username: null,
-      password: null,
+      // username: null,
+      // password: null,
       loading: false,
     }),
 
     methods: {
-      onSubmit () {
-        if (!this.username) return
+      onSubmit() {
+      var login = {
+        username: this.username,
+        password: this.password,
+      };
 
-        this.loading = true
-
-        setTimeout(() => (this.loading = false), 2000)
-      },
+      
+      this.$axios.post("http://localhost/PJBL2023/api_pjbl/public/login", login) // Ubah sesuai dengan alamat dan port server lokal Anda
+      .then((response) => {
+      // Proses respons dari server
+      // ...
+      
+      this.$router.push("/dashboard");
+    })
+    .catch((error) => {
+      console.error(error);
+      // Tampilkan pesan error jika login gagal
+    });
+    },
       required (v) {
         return !!v || 'Password harus diisi!'
       },

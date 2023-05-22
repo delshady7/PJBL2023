@@ -21,7 +21,15 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'cors' => \Config\Filters::class,
     ];
+    // public $aliases = [
+    //     'csrf'     => \CodeIgniter\Filters\CSRF::class,
+    //     'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
+    //     'honeypot' => \CodeIgniter\Filters\Honeypot::class,
+    //     'options' => \App\Filters\Options::class,
+
+    //   ];
 
     /**
      * List of filter aliases that are always
@@ -39,6 +47,17 @@ class Filters extends BaseConfig
             // 'secureheaders',
         ],
     ];
+    // public $globals = [
+    //     'before' => [
+    //        'options' //register option CORS
+    //        //'honeypot'
+    //        //'csrf',
+    //      ],
+    //         'after'  => [
+    //          'toolbar',
+    //          //'honeypot'
+    //      ],
+    //  ];
 
     /**
      * List of filter aliases that works on a

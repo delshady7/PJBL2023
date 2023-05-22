@@ -30,8 +30,12 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
+$routes->options('data_guru', 'DataGuruController::options', ['namespace' => 'App\Controllers']);
+// $routes->delete('data_guru/(:num)', 'DeleteController::delete/$1', ['namespace' => 'App\Controllers']);
 $routes->resource("data_guru");
-$routes->post('login', 'Auth::login');
+$routes->options('login', 'LoginController::options', ['namespace' => 'App\Controllers']);
+// $routes->post('login', 'Auth::login');
+$routes->add('login', 'Auth::login', ['post']);
 
 /*
  * --------------------------------------------------------------------

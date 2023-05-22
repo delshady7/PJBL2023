@@ -9,7 +9,7 @@ class data_guruModel extends Model
 {
     protected $table = 'data_guru';
     protected $primarykey = "id";
-    protected $allowedFields = ['id', 'nama', 'jenis_kelamin', 'jabatan' , 'alamat', 'telepon' ];
+    protected $allowedFields = ['id', 'nama', 'jenis_kelamin', 'pendidikan', 'jabatan' , 'alamat', 'telepon' ];
 
     protected $validationRules = [
         'nama' => 'required',
