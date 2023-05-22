@@ -73,8 +73,8 @@
     data: () => ({
       name: 'IndexPage',
       form: false,
-      // username: null,
-      // password: null,
+      username: null,
+      password: null,
       loading: false,
     }),
 
