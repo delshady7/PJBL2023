@@ -238,24 +238,38 @@
                             <v-col cols="12" sm="6" md="4">
                               <v-text-field
                                 label="Nama"
+                                v-model="nama"
                               ></v-text-field>
                             </v-col>
                             <v-col cols="12" sm="6" md="4">
                               <v-text-field
                                 label="Jenis Kelamin"
+                                v-model="jenis_kelamin"
+                              ></v-text-field>
+                            </v-col>
+                            <v-col cols="12" sm="6" md="4">
+                              <v-text-field
+                                label="Pendidikan"
+                                v-model="pendidikan"
                               ></v-text-field>
                             </v-col>
                             <v-col cols="12" sm="6" md="4">
                               <v-text-field
                                 label="Jabatan"
+                                v-model="jabatan"
                               ></v-text-field>
                             </v-col>
                             <v-col>
-                              <v-textarea clearable label="Alamat"></v-textarea>
+                              <v-textarea 
+                              clearable 
+                              label="Alamat" 
+                              v-model="alamat">
+                              </v-textarea>
                             </v-col>
                             <v-col cols="12" sm="6" md="4">
                               <v-text-field
                                 label="No. Telepon"
+                                v-model="telepon"
                               ></v-text-field>
                             </v-col>
                           </v-row>
@@ -274,9 +288,9 @@
                 </template>
                 <thead>
                   <tr>
-                    <th class="text-left">Id</th>
                     <th class="text-left">Nama</th>
                     <th class="text-left">Jenis Kelamin</th>
+                    <th class="text-left">Pendidikan</th>
                     <th class="text-left">Jabatan</th>
                     <th class="text-left">Alamat</th>
                     <th class="text-left">No. Telepon</th>
@@ -284,13 +298,13 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="item in get" :key="item.id">
-                    <td style="width: 100px">id</td>
-                    <td style="width: 100px">nama</td>
-                    <td style="width: 100px">jenis kelamin</td>
-                    <td style="width: 100px">jabatan</td>
-                    <td style="width: 100px">alamat</td>
-                    <td style="width: 100px">notelp</td>
+                  <tr v-for="(item, index) in data_guru" :key="item.id">
+                    <td style="width: 100px">{{ item.nama }}</td>
+                    <td style="width: 100px">{{ item.jenis_kelamin }}</td>
+                    <td style="width: 100px">{{ item.pendidikan }}</td>
+                    <td style="width: 100px">{{ item.jabatan }}</td>
+                    <td style="width: 100px">{{ item.alamat }}</td>
+                    <td style="width: 100px">{{ item.telepon }}</td>
                     <td style="width: 100px">
                       <tr>
                         <v-row>
@@ -306,7 +320,7 @@
                           </v-col>
                           <v-col>
                             <v-btn
-                              @click.prevent="remove(item)"
+                              @click.prevent="remove(item.id , index)"
                               color="danger"
                               fab
                               small
@@ -330,7 +344,7 @@ export default{
   created() {
     console.log("ok")
     const endpoint = "http://localhost/PJBL2023/api_pjbl/public/data_guru"
-    // const endpoint = "http://localhost:8080/Data/barang"
+    
 
     fetch(endpoint,
       {
@@ -385,6 +399,29 @@ export default{
           this.editIndex = -1;
         })
       },
+       save() {
+        var data_guru = {
+          nama : this.nama,
+          jenis_kelamin : this.jenis_kelamin,
+          pendidikan : this.pendidikan,
+          jabatan : this.jabatan,
+          alamat : this.alamat,
+          telepon : this.telepon,
+        }
+        this.$axios.post("http://localhost/PJBL2023/api_pjbl/public/data_guru", data_guru)
+      
+        .then(() => this.$router.push("/dashboard")) ;
+     
+      },
+      remove(id, index) {
+        this.$axios.delete(`http://localhost/PJBL2023/api_pjbl/public/data_guru/${id}`)
+     .then(response => {
+         this.data_guru.splice(index, 1);
+         console.log(response);
+      }).catch(error => {
+         console.log(error.response);
+  });
+      }
     },
 }
 </script>

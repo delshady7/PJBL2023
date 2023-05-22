@@ -14,32 +14,7 @@ class Auth extends ResourceController
         // $this->load->model('UserModel');
         $this->model = new UserModel();
     }
-    // public function login() {
-       
-    //     if($_SERVER["REQUEST_METHOD"] = "POST") {
-    //         if (isset($_POST['username']) && isset($_POST['password'])) {
-    //             $user_login = $this->model->proses_login($_POST['username'], $_POST['password']);
-    //             $result['username'] = null;
-                
-    //             if ($user_login->num_rows() == 1) {
-    //                 $result['value'] = "1";
-    //                 $result['pesan'] = "sukses login";
-    //                 $result['username'] = $user_login->row()->username;
-    //             } else {
-    //                 $result['value'] = "0";
-    //                 $result['pesan'] = "Username / Password ";
-    //             }
-    //         } else {
-    //             $result['value'] = "0";
-    //             $result['pesan'] = "Masing kosong ";
-    //         }
-    //     } else {
-    //         $result['value'] = "0";
-    //         $result['pesan'] = "Error Requestnya ";
-    //     }
-    //     return $this->respond($result);
-    // }
-    // // Fungsi untuk login
+  
     public function login()
     {
         $model = new UserModel();
@@ -47,17 +22,16 @@ class Auth extends ResourceController
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
 
-        $user = $model->where('username', $username)->first();
+        // $user = $model->where('username', $username)->first();
 
-        if (!$user) {
-            return $this->failNotFound('User not found');
+        // if (!$user) {
+        //     return $this->failNotFound('User not found');
+        // }
+        $isExists = $this->model->where('username', $username)->findAll();
+        if (!$isExists) {
+            return $this->failNotFound("Data gak ada");
         }
-        // var_dump($user);
-        // if (password_verify($password, $user['password'])) {
-        //     // Menghapus password dari respons
-        //     unset($user['password']);
-
-            // Mengembalikan respons dengan data pengguna
+       
             $response = [
                 'status' => 201,
                 'error' => null,
@@ -67,9 +41,31 @@ class Auth extends ResourceController
             ];
             return $this->respond($response);
            
-        // } else {
-        //     return $this->failUnauthorized('Invalid credentials');
-        // }
     }
+//     public function login()
+// {
+//     $model = new UserModel();
+
+//     $username = $this->request->getPost('username');
+//     $password = $this->request->getPost('password');
+
+//     $user = $model->where('username', $username)->first();
+
+//     // if (!$user) {
+//     //     return $this->failUnauthorized('Invalid credentials');
+//     // }
+
+//     // Cek apakah password yang dimasukkan sesuai dengan password di database
+//     // if (!password_verify($password, $user['password'])) {
+//     //     return $this->failUnauthorized('Invalid credentials');
+//     // }
+
+//     $response = [
+//         'status' => 200,
+//         'message' => 'Berhasil login',
+//         'data' => $user
+//     ];
+//     return $this->respond($response);
+// }
     }
    

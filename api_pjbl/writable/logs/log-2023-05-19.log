@@ -1,0 +1,948 @@
+CRITICAL - 2023-05-19 02:56:01 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 02:56:01 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 02:56:01 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 02:56:01 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 02:56:19 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 02:56:19 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 02:56:21 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 02:56:21 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 02:56:53 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 02:56:53 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 02:56:55 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 02:56:55 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:00:55 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:02:41 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:08:56 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:09:20 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:09:42 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:29:44 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:29:44 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:29:47 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:29:47 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:33:05 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:33:05 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:47:37 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:47:37 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:47:40 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:47:40 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:48:10 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:48:10 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:48:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:48:11 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:49:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:49:11 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:57:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:57:23 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:57:53 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:57:53 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:57:55 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:57:55 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:58:40 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:58:40 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 03:58:47 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 03:58:47 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:00:53 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:00:53 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:01:35 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:01:35 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:01:39 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:01:39 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:02:34 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:36:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:36:08 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:36:12 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:36:12 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:37:19 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:37:20 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:37:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:37:23 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:38:51 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:40:48 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:40:48 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:41:02 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:41:02 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 04:54:41 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 04:54:41 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:04:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:04:08 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:05:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:05:08 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:05:09 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:05:10 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:07:43 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:13:27 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:13:39 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:13:39 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:13:41 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:13:41 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:47:03 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:47:03 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:47:03 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:47:03 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:48:31 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:48:31 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:48:33 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:48:33 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:51:03 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:51:03 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:51:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:51:08 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:51:11 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:51:11 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:58:08 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 05:58:08 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 05:59:54 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:19:06 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:19:06 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 06:19:07 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:19:07 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 06:23:57 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:32:38 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:32:39 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 06:32:39 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:32:39 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 06:32:51 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:32:51 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 06:32:54 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-05-19 06:32:54 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(470): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\PJBL2023\api_pjbl\system\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\PJBL2023\api_pjbl\system\Debug\Exceptions.php(150): CodeIgniter\HTTP\Response->send()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#5 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\PJBL2023\api_pjbl\public\index.php(55): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-19 06:33:18 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
