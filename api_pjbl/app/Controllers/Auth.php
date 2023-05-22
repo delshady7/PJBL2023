@@ -22,8 +22,8 @@ class Auth extends ResourceController
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
 
-        // $user = $model->where('username', $username)->first();
-
+        $user = $model->where('username', $username)->first();
+        var_dump($user);
         // if (!$user) {
         //     return $this->failNotFound('User not found');
         // }
